@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        * {
+        body {
             margin: 0;
             padding: 0;
             background-color: #273F4F;
@@ -64,12 +64,35 @@
             border-radius: 10px;
         }
 
-        #nav_s {
+        .nav_s {
             width: 80px;
             height: 25px;
             border-radius: 10px;
             background-color: #FE7743;
 
+        }
+
+        /* hero section */
+        #hero {
+            background-image: url(/image/hero.png);
+            width: 100%;
+            height: 400px;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            border-radius: 40px;
+            border: 5px solid none;
+        }
+
+        #hero_sub {
+            text-align: center;
+            position: absolute;
+            margin-left: 29%;
+            margin-top: 5%;
+            background: none;
+            color: #FE7743;
+            font-size: 30px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
     </style>
 </head>
@@ -86,9 +109,19 @@
             <span class="margin">Contact Us</span>
             <span class="margin" id="search">
                 <input type="text" placeholder="search abtech.in">
-                <button id="nav_s">Search</button>
+                <button class="nav_s">Search</button>
             </span>
 
+        </div>
+
+        <!-- hero section -->
+
+        <div id="hero">
+            <div id="hero_sub">
+                <h1 style="font-size: 50px;">Welcome to ABTECH</h1>
+                <p style="color: #EFEEEA;"><b>Your Innovation Partner in Technology & AI</b></p>
+                <button class="nav_s" style="width: 150px; height: 40px;">Explore More</button>
+            </div>
         </div>
     </header>
 
