@@ -197,8 +197,8 @@ input[type="text"] {
 /* Our Services */
 
 .service{
-    /* background-color: rgb(198, 133, 133); */
-    height: 800px;
+    font-size: 0;
+    text-align: center;
 }
 
 .service_i{
@@ -230,6 +230,8 @@ input[type="text"] {
 
 #cardi{
     display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
     margin-left: 25px;
     background-color: #808080;
     width: 28%;
@@ -242,6 +244,8 @@ input[type="text"] {
 
 #cardii{
     display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
     margin-left: 50px;
     background-color: #808080;
     width: 28%;
@@ -252,6 +256,8 @@ input[type="text"] {
 }
 #cardiii{
     display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
     margin-left: 50px;
     background-color: #808080;
     width: 28%;
@@ -262,7 +268,9 @@ input[type="text"] {
 }
 #cardiv{
     display: inline-block;
-    margin-left: 270px;
+    vertical-align: top;
+    font-size: 16px;
+    margin-left: 0px;
     margin-top: 40px;
     background-color: #808080;
     width: 28%;
@@ -273,6 +281,8 @@ input[type="text"] {
 }
 #cardv{
     display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
     margin-left: 50px;
     margin-top: 40px;
     background-color: #808080;
