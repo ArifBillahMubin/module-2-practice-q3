@@ -103,21 +103,25 @@ input[type="text"] {
 
 .abouts{
     background-color: #EFEEEA;
-    /* margin-top: 50px;
-    margin-bottom: 10px; */
+    margin-top: 50px;
+    margin-bottom: 10px;
     text-align: center;
     width: 300px;
     height: 40px;
-    /* margin-left: 42%; */
+    margin-left: 42%;
     border: 5px solid #FE7743;
     border-radius: 10px;
 }
 
+.abouts p{
+    line-height: 0px;
+    margin: 0px;
+    padding: 20px;
+}
+
 #aboutss{
-    /* position: relative; */
     font-weight: bolder;
     font-size: 30px;
-    /* margin:5px 10px 5px 10px; */
 }
 .about {
     background-color: #EFEEEA;
@@ -136,15 +140,15 @@ input[type="text"] {
     position: absolute;
     width: 40%;
     height: 250px;
-    margin-top: 165px;
+    margin-top: 160px;
     margin-left: 50px;
     box-shadow: 10px 20px 30px #fe784357;
     border-radius: 20px;
 }
 
-.dt{
-    /* text-align: center; */
-    /* font-size: 25px; !! */
+.dd{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #about_pic{
@@ -189,3 +193,93 @@ input[type="text"] {
     border: 5px solid none;
     margin-top: 10px;
 }
+
+/* Our Services */
+
+.service{
+    /* background-color: rgb(198, 133, 133); */
+    height: 800px;
+}
+
+.service_i{
+    background-color: #808080;
+    margin-top: 70px;
+    margin-bottom: 40px;
+    text-align: center;
+    width: 300px;
+    height: 40px;
+    margin-left: 39.72%;
+    border: 10px solid #252728;
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px ;
+    
+}
+
+.service_i p{
+    line-height: 0px;
+    margin: 0px;
+    padding: 20px;
+    color: #272525;
+}
+
+#service_ii{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+
+#cardi{
+    display: inline-block;
+    margin-left: 25px;
+    background-color: #808080;
+    width: 28%;
+    height: 250px;
+    border: 12px solid #252728;
+    box-shadow: 10px 20px 30px ;
+    border-radius: 30px;
+}
+
+
+#cardii{
+    display: inline-block;
+    margin-left: 50px;
+    background-color: #808080;
+    width: 28%;
+    height: 250px;
+    border: 12px solid #252728;
+    box-shadow: 10px 20px 30px ;
+    border-radius: 30px;
+}
+#cardiii{
+    display: inline-block;
+    margin-left: 50px;
+    background-color: #808080;
+    width: 28%;
+    height: 250px;
+    border: 12px solid #252728;
+    box-shadow: 10px 20px 30px ;
+    border-radius: 30px;
+}
+#cardiv{
+    display: inline-block;
+    margin-left: 270px;
+    margin-top: 40px;
+    background-color: #808080;
+    width: 28%;
+    height: 250px;
+    border: 12px solid #252728;
+    box-shadow: 10px 20px 30px ;
+    border-radius: 30px;
+}
+#cardv{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 40px;
+    background-color: #808080;
+    width: 28%;
+    height: 250px;
+    border: 12px solid #252728;
+    box-shadow: 10px 20px 30px ;
+    border-radius: 30px;
+}
+
