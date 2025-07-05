@@ -232,13 +232,27 @@ input[type="text"] {
     display: inline-block;
     vertical-align: top;
     font-size: 16px;
-    margin-left: 25px;
+    margin-left: 15px;
     background-color: #808080;
     width: 28%;
     height: 250px;
     border: 12px solid #252728;
     box-shadow: 10px 20px 30px ;
     border-radius: 30px;
+}
+
+#iconi{
+    vertical-align: top;
+    height: 50px;
+    width: 50px;
+    background-image: url("/image/software.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 42%;
+    margin-top: 15px;
+    box-shadow: 5px 10px 15px rgba(21, 92, 139, 0.608);
+    border-radius: 50%;
 }
 
 
@@ -254,6 +268,21 @@ input[type="text"] {
     box-shadow: 10px 20px 30px ;
     border-radius: 30px;
 }
+
+#iconii{
+    vertical-align: top;
+    height: 50px;
+    width: 50px;
+    background-image: url("/image/app.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 42%;
+    margin-top: 15px;
+    box-shadow: 5px 10px 15px rgba(21, 92, 139, 0.608);
+    border-radius: 50%;
+}
+
 #cardiii{
     display: inline-block;
     vertical-align: top;
@@ -266,6 +295,22 @@ input[type="text"] {
     box-shadow: 10px 20px 30px ;
     border-radius: 30px;
 }
+
+#iconiii{
+    vertical-align: top;
+    height: 50px;
+    width: 50px;
+    background-image: url("/image/ai-technology.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 42%;
+    margin-top: 15px;
+    box-shadow: 5px 10px 15px rgba(21, 92, 139, 0.608);
+    border-radius: 50%;
+}
+
+
 #cardiv{
     display: inline-block;
     vertical-align: top;
@@ -279,6 +324,21 @@ input[type="text"] {
     box-shadow: 10px 20px 30px ;
     border-radius: 30px;
 }
+
+#iconiv{
+    vertical-align: top;
+    height: 50px;
+    width: 50px;
+    background-image: url("/image/cloud-network.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 42%;
+    margin-top: 15px;
+    box-shadow: 5px 10px 15px rgba(21, 92, 139, 0.608);
+    border-radius: 50%;
+}
+
 #cardv{
     display: inline-block;
     vertical-align: top;
@@ -291,5 +351,20 @@ input[type="text"] {
     border: 12px solid #252728;
     box-shadow: 10px 20px 30px ;
     border-radius: 30px;
+    margin-bottom: 70px;
+}
+
+#iconv{
+    vertical-align: top;
+    height: 50px;
+    width: 50px;
+    background-image: url("/image/cyber-security.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 42%;
+    margin-top: 15px;
+    box-shadow: 5px 10px 15px rgba(21, 92, 139, 0.608);
+    border-radius: 50%;
 }
 
